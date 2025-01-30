@@ -18,7 +18,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Define the channel ID where the bot should respond
-TARGET_CHANNEL_ID = 1334560068963926046  # Ganti dengan ID channel Anda
+TARGET_CHANNEL_ID = 2136178236xxxxxxx # Ganti dengan ID channel Anda
 
 @bot.event
 async def on_ready():
